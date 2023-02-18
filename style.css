@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Open+Sans:wght@600&family=Poppins:wght@300;400&family=Roboto&display=swap');
+*{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: Inter;
+}
+.box1{
+    width: 1840px;
+    height: 110px;
+    border: 1px solid #808080;
+    margin: 30px 40px;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 48px;
+    border-radius: 10px;
+}
+.box1 p{
+    padding-left: 51px;
+    padding-top: 20px;
+}
+.box2{
+    display: grid;
+    grid-template-columns: 620px 1240px;
+    gap: 20px;
+}
+.left{
+    display: flex;
+    flex-flow:column wrap;
+}
+.item{
+    display: flex;
+    width: 550px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid #808080;
+    margin-left: 35px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+.item ul{
+    margin-left: 35px;
+    font-size: 24px;
+    line-height: 29px;
+}
+.item li{
+    padding: 10px;
+}
+.item1{
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+.item1 p{
+    padding-top: 30px;
+    font-weight: 200;
+   font-size: 24px;
+   line-height: 29px;
+}
+
+.item1 img{
+    width:150px ;
+    height:150px;
+    border-radius: 50%;
+}
+.iconbox{
+    display: flex;
+    flex-flow: column;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 58px;
+}
+.iconbox div{
+    padding-left: 30px;
+}
+.iconbox i{
+ padding-right: 20px; 
+}
+.right{
+    display: flex;
+    flex-flow: column;
+    border:  1px solid #808080;
+    border-radius: 10px;
+    height: 960px;
+    color: #ffffff;
+}
+.right h1{
+    font-weight: 200;
+    font-size: 48px;
+    line-height: 58px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.tablebox{
+    display: flex;
+    flex-flow: column;
+    width: 1150px;
+    height: 790px;
+   border:  1px solid #808080;  
+    border-radius: 10px;
+    margin: auto;
+}
+table, th ,td{
+    border-left:  1px solid #808080;
+    border-collapse: collapse;
+    text-align: left;
+
+  }
+  .line{
+    border-bottom: 1px solid #808080 ;
+  }
+  table,th,td{
+    padding: 10px;
+    padding-left: 30px;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .status{
+    width: 30px;
+    height: 30px;
+    border:  1px solid #808080;
+    border-radius: 10px;
+  }
+
+
+
